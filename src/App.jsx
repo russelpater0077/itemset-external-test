@@ -16,8 +16,8 @@ function loadScript(src) {
   });
 }
 
-const BUNDLE_URL =
-  "https://61665fa6e0stg.blob.core.windows.net/itemset-wizard/embedded-itemset-library.js?sp=r&st=2026-05-14T21:56:14Z&se=2026-06-19T06:11:14Z&sv=2025-11-05&sr=b&sig=853ldTrk%2FmegZkr3pVoLxPveyCEz0EMkNDJ3i385nk8%3D";
+// "https://61665fa6e0stg.blob.core.windows.net/itemset-wizard/embedded-itemset-library.js?sp=r&st=2026-05-14T21:56:14Z&se=2026-06-19T06:11:14Z&sv=2025-11-05&sr=b&sig=853ldTrk%2FmegZkr3pVoLxPveyCEz0EMkNDJ3i385nk8%3D";
+const BUNDLE_URL = "https://cdn.jsdelivr.net/gh/russelpater0077/public-cdn@main/embedded-itemset-library.js";
 
 const SERVER_API_PATH = "/asset-library/api";
 const proxyHost = import.meta.env.VITE_PROXY_HOST;
